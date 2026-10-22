@@ -1,0 +1,1349 @@
+CRITICAL - 2026-10-21 05:32:42 --> CodeIgniter\Filters\Exceptions\FilterException: "session" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH/Filters/Filters.php on line 842.
+ 1 SYSTEMPATH/Filters/Filters.php(842): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(487): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(218): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(465): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+CRITICAL - 2026-10-21 05:45:25 --> CodeIgniter\Filters\Exceptions\FilterException: "session" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH/Filters/Filters.php on line 842.
+ 1 SYSTEMPATH/Filters/Filters.php(842): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(487): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(218): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(465): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+CRITICAL - 2026-10-21 06:06:10 --> CodeIgniter\Filters\Exceptions\FilterException: "session" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH/Filters/Filters.php on line 842.
+ 1 SYSTEMPATH/Filters/Filters.php(842): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(487): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(218): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(465): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+CRITICAL - 2026-10-21 06:06:17 --> CodeIgniter\Filters\Exceptions\FilterException: "session" filter must have a matching alias defined.
+[Method: GET, Route: /]
+in SYSTEMPATH/Filters/Filters.php on line 842.
+ 1 SYSTEMPATH/Filters/Filters.php(842): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(487): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(218): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(465): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 06:24:14 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:78
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 06:24:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 06:41:31 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\Postgre\pg_connect() in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:78
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 06:41:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 06:58:16 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 06:58:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 06:58:58 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 06:58:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:01 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:12 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:13 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:13 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:14 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 07:01:15 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: ERROR:  invalid value for parameter "client_encoding": "utf8mb4" in /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/Postgre/Connection.php:98
+Stack trace:
+#0 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(555): CodeIgniter\Database\Postgre\Connection->connect()
+#1 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+#3 /home/rindra/Documents/S5/Mr_Tovo/SIRH/app/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+#5 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+#6 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(417): CodeIgniter\CodeIgniter->run()
+#8 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php(59): CodeIgniter\Boot::bootWeb()
+#10 /home/rindra/Documents/S5/Mr_Tovo/SIRH/system/rewrite.php(44): require_once('...')
+#11 {main}
+CRITICAL - 2026-10-21 07:01:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [Postgre]: ERROR:  invalid value for parameter "client_encoding": "utf8mb4"
+[Method: GET, Route: dev/login-as/DIRECTION]
+in SYSTEMPATH/Database/BaseConnection.php on line 606.
+ 1 SYSTEMPATH/Database/BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Config/Routes.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(872): CodeIgniter\Router\RouteCollection::{closure}()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+CRITICAL - 2026-10-21 18:20:48 --> ErrorException: Undefined property: App\Controllers\Candidat\CandidaturesController::$db
+[Method: GET, Route: candidat/offres/5/postuler]
+in APPPATH/Controllers/Candidat/CandidaturesController.php on line 203.
+ 1 APPPATH/Controllers/Candidat/CandidaturesController.php(203): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Candidat/CandidaturesController.php(16): App\Controllers\Candidat\CandidaturesController->offreDisponible()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Candidat\CandidaturesController->formulaire()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+CRITICAL - 2026-10-21 18:20:57 --> ErrorException: Undefined property: App\Controllers\Candidat\CandidaturesController::$db
+[Method: GET, Route: candidat/offres/4/postuler]
+in APPPATH/Controllers/Candidat/CandidaturesController.php on line 203.
+ 1 APPPATH/Controllers/Candidat/CandidaturesController.php(203): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Candidat/CandidaturesController.php(16): App\Controllers\Candidat\CandidaturesController->offreDisponible()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Candidat\CandidaturesController->formulaire()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+CRITICAL - 2026-10-21 18:28:16 --> ErrorException: Undefined property: App\Controllers\Candidat\CandidaturesController::$db
+[Method: GET, Route: candidat/offres/5/postuler]
+in APPPATH/Controllers/Candidat/CandidaturesController.php on line 203.
+ 1 APPPATH/Controllers/Candidat/CandidaturesController.php(203): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Candidat/CandidaturesController.php(16): App\Controllers\Candidat\CandidaturesController->offreDisponible()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Candidat\CandidaturesController->formulaire()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+ERROR - 2026-10-21 20:01:34 --> pg_query(): Query failed: ERROR:  relation &quot;historique_contrat&quot; does not exist
+LINE 2: FROM &quot;historique_contrat&quot; &quot;h&quot;
+             ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 200.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Candidat/ContratController.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Candidat\ContratController->show()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+CRITICAL - 2026-10-21 20:01:34 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  relation &quot;historique_contrat&quot; does not exist
+LINE 2: FROM &quot;historique_contrat&quot; &quot;h&quot;
+             ^
+[Method: GET, Route: candidat/contrats/1]
+in SYSTEMPATH/Database/BaseConnection.php on line 865.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Candidat/ContratController.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Candidat\ContratController->show()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+CRITICAL - 2026-10-21 20:01:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  relation &quot;historique_contrat&quot; does not exist
+LINE 2: FROM &quot;historique_contrat&quot; &quot;h&quot;
+             ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 212.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Candidat/ContratController.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Candidat\ContratController->show()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')
+CRITICAL - 2026-10-21 20:01:34 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  relation &quot;historique_contrat&quot; does not exist
+LINE 2: FROM &quot;historique_contrat&quot; &quot;h&quot;
+             ^
+in SYSTEMPATH/Database/Postgre/Connection.php on line 200.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Postgre/Connection.php(200): pg_query()
+ 3 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute()
+ 4 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Controllers/Candidat/ContratController.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Candidat\ContratController->show()
+ 8 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/rewrite.php(44): require_once('/home/rindra/Documents/S5/Mr_Tovo/SIRH/public/index.php')

@@ -1,0 +1,99 @@
+/* ==========================================================================
+   Aura Finance — Feuille de style commune
+   Utilisée par : config_operateur.php, connexion.php, gain.php,
+                  historique_client.php
+   Regroupe tous les styles personnalisés qui étaient auparavant dupliqués
+   dans une balise <style> propre à chaque page.
+   ========================================================================== */
+
+/* --- Base --------------------------------------------------------------- */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f9fb;
+}
+
+/* --- Icônes Material Symbols --------------------------------------------- */
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Icône "active" (ex: item de navigation sélectionné) */
+.material-symbols-outlined.active-icon,
+.active-icon {
+    font-variation-settings: 'FILL' 1;
+}
+
+/* --- Barre de défilement personnalisée (générique) ----------------------- */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #d0c6ab;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #7e775f;
+}
+
+/* Variante appliquée à un conteneur précis (ex: tableau des tranches) */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #d0c6ab;
+    border-radius: 10px;
+}
+
+/* Masquer complètement la barre de défilement (écran de connexion) */
+.hide-scroll::-webkit-scrollbar {
+    display: none;
+}
+.hide-scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* --- Cartes "bento" (grilles de tableau de bord) -------------------------- */
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px;
+}
+.bento-card {
+    background: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 12px rgba(112, 93, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.bento-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(112, 93, 0, 0.12);
+}
+
+/* --- Animation flottante (illustrations écran de connexion) -------------- */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+.float-animation {
+    animation: float 4s ease-in-out infinite;
+}
+
+/* --- Bascule connexion / tableau de bord (connexion.php) ----------------- */
+#dashboard {
+    display: none;
+}
+#login-screen {
+    display: flex;
+}
+
+/* --- Lignes de tableau alternées (historique_client.php) ----------------- */
+.transaction-row:nth-child(even) {
+    background-color: rgba(236, 238, 240, 0.4);
+}

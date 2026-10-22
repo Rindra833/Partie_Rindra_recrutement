@@ -1,0 +1,12 @@
+CRITICAL - 2026-07-21 07:15:02 --> ErrorException: Undefined variable $db
+[Method: POST, Route: client/transfert]
+in APPPATH/Controllers/ClientController.php on line 366.
+ 1 APPPATH/Controllers/ClientController.php(366): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/ClientController.php(233): App\Controllers\ClientController->calculerPromotion()
+ 3 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ClientController->processTransfert()
+ 4 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/itu/Projet_s4_Mobile_Money/public/index.php')

@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1784540500;_ci_previous_url|s:43:"http://localhost:8080/index.php/client/home";client|a:6:{s:2:"id";i:1;s:3:"nom";s:6:"Rakoto";s:6:"prenom";s:4:"Jean";s:16:"numero_telephone";s:10:"0330000011";s:10:"id_prefixe";i:1;s:5:"solde";d:1500000;}role|s:6:"client";error|s:24:"Une erreur est survenue.";__ci_vars|a:1:{s:5:"error";s:3:"old";}

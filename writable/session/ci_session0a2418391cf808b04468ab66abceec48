@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1784565997;_ci_previous_url|s:33:"http://localhost:8080/client/home";role|s:6:"client";operateur_id|i:1;client|a:6:{s:2:"id";i:2;s:3:"nom";s:6:"Rakoto";s:6:"prenom";s:5:"Dylan";s:16:"numero_telephone";s:10:"0384455566";s:10:"id_prefixe";i:2;s:5:"solde";d:4800;}prefixes|a:2:{i:0;s:3:"033";i:1;s:3:"038";}
